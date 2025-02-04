@@ -1,4 +1,4 @@
-#### Before starting, create a .env folder in the root directory and provide MONGO_URI = , PORT = , JWT_SECRET= 
+#### Before starting, create a .env file in the root directory and provide MONGO_URI = , PORT = , JWT_SECRET= 
 
 #### After this, install the dependency packages using "npm install"
 
