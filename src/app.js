@@ -10,8 +10,8 @@ let app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use('/user', userRouter);
-app.use('/auth', authRouter);
+app.use('api/user', userRouter);
+app.use('api/auth', authRouter);
 app.use('*', (req, res) =>{
     res.json({message:'page not found'})
 });
